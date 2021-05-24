@@ -34,7 +34,8 @@ python -i data/url_to_category/download_tools.py
 ### Windows 
 
 ```
-docker run -v C:\Users\brad\src\Bootcamp-Repository-Language-2:/tf -it --rm -p 8888:8888 poems_analyzer
+cd (repo name)
+docker run -v ${PWD}:/tf -it --rm -p 8888:8888 projectname
 ```
 
 ## Train
