@@ -1,28 +1,6 @@
 # ml-template-repo
 A template repository for the 2021 Data-Focused Programming Bootcamp
 
-
-### Install
-- [install git lfs via apt or brew](https://packagecloud.io/github/git-lfs/install)
-- ```git lfs install```
-- type ```git lfs``` for help
-
-### Add New Large Files
-- to add new folders ```git lfs track "deploy/url_to_category/models/model_prod/**"```
-- see whats tracked ```git lfs track```
-
-### Push like normal
-- ```git add -A``` 
-- ```git commit -m ```
-- ```git push origin xxx```
-- if you mess up a commit ```git reset HEAD~```
-
-### Pull
-- ```git pull```
-- ```git lfs fetch```
-- ```git lfs checkout```
-
-
 # The Repo
 
 ## Install
