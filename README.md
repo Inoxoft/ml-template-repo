@@ -3,7 +3,7 @@ A template repository for the 2021 Data-Focused Programming Bootcamp
 
 # The Repo
 
-## Install
+## Install (Mac/Linux)
 
 some docker files for various use cases:
 
@@ -14,6 +14,13 @@ some docker files for various use cases:
 ```
 source utils/builddocker.sh minimal.Dockerfile
 ```
+### Windows
+
+```
+cd (project base directory)
+docker build -t projectname install/ -f install/minimal.Dockerfile
+```
+
 
 ## Data
 
@@ -22,6 +29,12 @@ a home for data downloaders, athena queries etc..
 ```
 source utils/runshell.sh
 python -i data/url_to_category/download_tools.py
+```
+
+### Windows 
+
+```
+docker run -v C:\Users\brad\src\Bootcamp-Repository-Language-2:/tf -it --rm -p 8888:8888 poems_analyzer
 ```
 
 ## Train
