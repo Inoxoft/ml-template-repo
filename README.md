@@ -12,7 +12,7 @@ some docker files for various use cases:
 - Deployment (intended to be as lightweight as possible)
 
 ```
-source utils/builddocker.sh train-gpu-jupyter.Dockerfile
+source utils/builddocker.sh minimal.Dockerfile
 ```
 
 ## Data
